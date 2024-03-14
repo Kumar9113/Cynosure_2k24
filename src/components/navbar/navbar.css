@@ -27,10 +27,10 @@
 }
 
 .nav_button:hover{
-    /* transform: translate(4px,4px); */
+ 
     box-shadow: none;
     animation: glowEffect 0.5s ease-in infinite;
-    /* animation-delay: 0.5s; */
+    
 }
 
 @media screen and (max-width: 500px){
