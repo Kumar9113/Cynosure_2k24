@@ -19,7 +19,7 @@
     /* box-shadow: 4px 4px rgb(56, 55, 55); */
     background-color: transparent;
     color: white;
-    border: 1px solid white;
+    border: 3px solid white;
     outline: none;
     animation: box-shadow 0.5s;
     cursor: pointer;
@@ -33,9 +33,19 @@
     /* animation-delay: 0.5s; */
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 500px){
     .navbar{
         width: 320px;
+    }
+    .navbar{  
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 10px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.747);
     }
 }
 @keyframes glowEffect {
